@@ -1,0 +1,24 @@
+body {
+  background: #f8fafc;
+}
+
+.vacancy-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
+}
+
+.salary-chip {
+  display: inline-block;
+  background: #e0f2fe;
+  color: #075985;
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+  .navbar .btn {
+    font-size: 0.85rem;
+  }
+}
